@@ -40,8 +40,8 @@ const GitHubUsers = () => {
   return (
     <>
       <h3>GitHub Users</h3>
-      <div className="center">
-        <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
+        <div className="center">
           <input
             type="text"
             id="search"
@@ -49,8 +49,8 @@ const GitHubUsers = () => {
             className="input"
             onChange={handleSearchChange}
           />
-        </form>
-      </div>
+        </div>
+      </form>
       <div className="users">{content}</div>
     </>
   );

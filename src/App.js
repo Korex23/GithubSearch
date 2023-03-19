@@ -3,11 +3,11 @@ import axios from "axios";
 
 function App() {
   // const [fact, setFact] = useState("");
-  // // fetch("https://catfact.ninja/fact")
-  // //   .then((res) => res.json())
-  // //   .then((data) => {
-  // //     console.log(data);
-  // //   });
+  // fetch("https://catfact.ninja/fact")
+  //   .then((res) => res.json())
+  //   .then((data) => {
+  //     console.log(data);
+  //   });
   // const fetchCat = () => {
   //   axios.get("https://catfact.ninja/fact").then((res) => {
   //     setFact(res.data.fact);

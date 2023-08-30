@@ -8,7 +8,7 @@ const GitHubUsers = () => {
   const [searchUser, setSearchUser] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [total, setTotal] = useState(0);
-  const [limit, setLimit] = useState(10);
+  const [limit, setLimit] = useState(1);
 
   // const fetchUsers = () => async {
   //   axios.get("https://api.github.com/users").then((res) => {
